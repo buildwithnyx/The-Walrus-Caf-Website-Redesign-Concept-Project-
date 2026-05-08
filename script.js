@@ -1,3 +1,6 @@
 function scrollToMenu() {
-  document.getElementById("menu").scrollIntoView({ behavior: "smooth" });
+  document.getElementById("menu").scrollIntoView({
+    behavior: "smooth",
+    block: "start"
+  });
 }
