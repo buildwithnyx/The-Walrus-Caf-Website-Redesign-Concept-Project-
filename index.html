@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Walrus Cafe</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="logo-area">
+    <img src="logo.jpeg" class="logo" />
+    <span>The Walrus Cafe</span>
+  </div>
+
+  <nav>
+    <a href="#menu">Menu</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#visit">Visit</a>
+  </nav>
+</header>
+
+<!-- HERO (SITTING AREA IMAGE) -->
+<section class="hero">
+  <div class="overlay"></div>
+  <div class="hero-content">
+    <h1>Modern Café Experience</h1>
+    <p>Fresh coffee, warm food & cozy Sydney vibes</p>
+    <button onclick="scrollToMenu()">Explore Menu</button>
+  </div>
+</section>
+
+<!-- MENU -->
+<section id="menu" class="menu">
+  <h2>Our Menu</h2>
+
+  <div class="menu-grid">
+    <div class="card">
+      <img src="image1.jpeg" />
+      <h3>Cappuccino</h3>
+    </div>
+
+    <div class="card">
+      <img src="image2.jpeg" />
+      <h3>Dessert</h3>
+    </div>
+
+    <div class="card">
+      <img src="image3.jpeg" />
+      <h3>Spaghetti</h3>
+    </div>
+
+    <div class="card">
+      <img src="image4.jpeg" />
+      <h3>Croissant</h3>
+    </div>
+  </div>
+</section>
+
+<!-- AMBIENCE -->
+<section class="ambience">
+  <div class="ambience-text">
+    <h2>Relax & Enjoy</h2>
+    <p>A warm space designed for conversations, coffee, and comfort.</p>
+  </div>
+
+  <img src="ambience.jpeg" />
+</section>
+
+<!-- VISIT -->
+<section id="visit" class="visit">
+  <h2>Visit Us</h2>
+  <p>Sydney CBD, Australia</p>
+  <button>Get Directions</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
